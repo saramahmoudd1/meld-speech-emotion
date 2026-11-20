@@ -48,7 +48,7 @@ Weighted-F1 and macro-F1 are the primary metrics. Accuracy is secondary because 
     report/              report PDF and slides
     contributions/       individual logs
 
-Checkpoints and the processed manifest: [Drive link]
+Checkpoints and the processed manifest: [[Drive link](https://drive.google.com/drive/folders/1TnPBWNvEBI-8WIu8LksQngRhTsS5Aqfm)]
 
 ## 3. Environment setup
 
