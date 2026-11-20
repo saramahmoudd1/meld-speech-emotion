@@ -1,0 +1,6 @@
+﻿Error type,Count,% of errors,Example,Likely cause (hypothesis)
+Emotion predicted as neutral,296,31.9,"""I'm making him a"" (true joy, predicted neutral)","Hypothesis: neutral is 47% of the training data, so uncertain or mildly expressed emotions drift towards the majority class."
+Confusion between two emotions,240,25.9,"""All right, bye!"" (true anger, predicted joy)","Hypothesis: emotions with similar valence or arousal are hard to separate from an isolated utterance, and the labels are subjective."
+Neutral predicted as an emotion,160,17.2,"""Hey! Y'know that teacher who had a baby with her student?"" (true neutral, predicted surprise)",Hypothesis: neutral sentence with emotional wording or intonation; the boundary between neutral and mild emotion is subjective and no dialogue context is available.
+Very short utterance (1-2 words),128,13.8,"""You're kidding."" (true surprise, predicted neutral)","Hypothesis: almost no lexical content, so the emotion must come from tone; the audio is the weaker modality and the evidence is limited."
+Rare class missed (fear/disgust),104,11.2,"""Ross-Ross-Ross-Ross! Stay away from that guy , and that guy . And that"" (true fear, predicted surprise)","Hypothesis: fear and disgust have only about 270 training examples each (2.7% of train), so the model rarely learns to predict them."

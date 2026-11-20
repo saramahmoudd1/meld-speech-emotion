@@ -1,0 +1,19 @@
+{
+  "manifest": "C:\\meld\\processed\\manifest.csv",
+  "features": "C:\\meld\\features",
+  "modality": "fusion",
+  "loss": "ce",
+  "seeds": [
+    42
+  ],
+  "lr": 0.002,
+  "wd": 0.01,
+  "hidden": 128,
+  "emb": 128,
+  "dropout": 0.1,
+  "gamma": 2.0,
+  "bs": 64,
+  "epochs": 30,
+  "patience": 6,
+  "tag": "_do01"
+}

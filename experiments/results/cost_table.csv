@@ -1,0 +1,9 @@
+model,pretrained_encoders,trainable_params,total_params_M,checkpoint_MB,train_sec_per_run,head_infer_ms,end_to_end_infer_ms,hardware
+mlp_audio_ce_tuned,True,265991,94.67,1.068,13.1,0.0069,52.65,NVIDIA GeForce RTX 3050 6GB Laptop GPU
+mlp_text_ce_tuned,True,265991,124.87,1.068,19.5,0.0092,4.07,NVIDIA GeForce RTX 3050 6GB Laptop GPU
+mlp_fusion_ce_tuned,True,529927,219.53,2.125,23.1,0.0129,56.72,NVIDIA GeForce RTX 3050 6GB Laptop GPU
+attn_cross_ce_tuned,True,1584135,220.58,6.353,426.1,3.1825,59.89,NVIDIA GeForce RTX 3050 6GB Laptop GPU
+attn_nocross_ce_tuned,True,529927,219.53,2.125,268.3,1.9858,58.69,NVIDIA GeForce RTX 3050 6GB Laptop GPU
+gru_audio_ce,False,182791,0.18,0.735,625.0,0.5773,0.58,NVIDIA GeForce RTX 3050 6GB Laptop GPU
+gru_text_ce,False,588295,0.59,2.357,64.0,0.1608,0.16,NVIDIA GeForce RTX 3050 6GB Laptop GPU
+gru_fusion_ce,False,770055,0.77,3.085,357.1,0.5906,0.59,NVIDIA GeForce RTX 3050 6GB Laptop GPU

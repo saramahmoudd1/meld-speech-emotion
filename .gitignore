@@ -1,0 +1,23 @@
+﻿# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Large datasets
+*.wav
+*.mp4
+*.tar.gz
+*.npz
+
+# Prediction files
+*.npy
+
+# Model checkpoints
+checkpoints/*.pt
+!checkpoints/mlp_fusion_ce_tuned_seed43.pt
+
+# System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+{
+  "features": "C:\\meld\\features",
+  "modality": "fusion",
+  "loss": "ce",
+  "seeds": [
+    42
+  ],
+  "lr": 0.003,
+  "wd": 0.01,
+  "hidden": 256,
+  "dropout": 0.3,
+  "gamma": 2.0,
+  "bs": 128,
+  "epochs": 40,
+  "patience": 8,
+  "tag": "_lrhigh"
+}

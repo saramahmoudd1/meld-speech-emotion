@@ -1,0 +1,21 @@
+{
+  "features": "C:\\meld\\features",
+  "cross": 0,
+  "loss": "ce",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "d": 256,
+  "heads": 4,
+  "layers": 1,
+  "lr": 0.0005,
+  "wd": 0.01,
+  "dropout": 0.3,
+  "gamma": 2.0,
+  "bs": 32,
+  "epochs": 30,
+  "patience": 6,
+  "tag": ""
+}

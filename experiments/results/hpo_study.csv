@@ -1,0 +1,16 @@
+family,run,lr,dropout,dev_score,test_wF1,test_mF1
+mlp_fusion_ce,mlp_fusion_ce,0.001,0.3,0.521,0.618,0.4516
+mlp_fusion_ce,mlp_fusion_ce_do01,0.001,0.1,0.5218,0.607,0.4344
+mlp_fusion_ce,mlp_fusion_ce_do05,0.001,0.5,0.5349,0.619,0.4554
+mlp_fusion_ce,mlp_fusion_ce_lrhigh,0.003,0.3,0.512,0.6018,0.4159
+mlp_fusion_ce,mlp_fusion_ce_lrlow,0.0003,0.3,0.521,0.6181,0.4318
+gru_fusion_ce,gru_fusion_ce,0.002,0.3,0.4759,0.5562,0.3704
+gru_fusion_ce,gru_fusion_ce_do01,0.002,0.1,0.4621,0.5486,0.3524
+gru_fusion_ce,gru_fusion_ce_do05,0.002,0.5,0.4644,0.5706,0.3648
+gru_fusion_ce,gru_fusion_ce_lrhigh,0.006,0.3,0.4524,0.555,0.337
+gru_fusion_ce,gru_fusion_ce_lrlow,0.0006,0.3,0.4592,0.5679,0.3536
+attn_cross_ce,attn_cross_ce,0.0005,0.3,0.5196,0.6039,0.4152
+attn_cross_ce,attn_cross_ce_do01,0.0005,0.1,0.5167,0.5944,0.4092
+attn_cross_ce,attn_cross_ce_do05,0.0005,0.5,0.5368,0.6162,0.4189
+attn_cross_ce,attn_cross_ce_lrhigh,0.0015,0.3,0.5034,0.6068,0.4221
+attn_cross_ce,attn_cross_ce_lrlow,0.00015,0.3,0.5192,0.6342,0.4546

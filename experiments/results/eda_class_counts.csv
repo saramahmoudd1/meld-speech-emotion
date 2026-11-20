@@ -1,0 +1,4 @@
+split,neutral,joy,sadness,anger,surprise,fear,disgust
+train,4709,1743,683,1109,1205,268,271
+dev,469,163,111,153,150,40,22
+test,1256,402,208,345,281,50,68
